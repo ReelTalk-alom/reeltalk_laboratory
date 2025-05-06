@@ -1,3 +1,9 @@
+import { LampDemo } from "@/components/ui/lamp-demo";
+
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div className="min-h-screen w-full">
+      <LampDemo />
+    </div>
+  );
 }
