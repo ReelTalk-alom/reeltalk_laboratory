@@ -3,18 +3,16 @@ import forms from "@tailwindcss/forms";
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        ReelTalk_Cream: "#ECEBD6",
-      },
-      backgroundImage: {
-        "gradient-conic":
-          "conic-gradient(var(--conic-position), var(--tw-gradient-stops))",
+        ReelTalk_DeepBlue: "#1E88E5",
+        ReelTalk_LightBlue: "#E3F2FD",
+        ReelTalk_Yellow: "#FFC107",
       },
     },
   },
